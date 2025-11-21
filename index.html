@@ -76,21 +76,17 @@
         min-height: 100vh;
       }
 
-      /* Custom scrollbar */
       .custom-scrollbar::-webkit-scrollbar {
         width: 6px;
         height: 6px;
       }
-
       .custom-scrollbar::-webkit-scrollbar-track {
         background: transparent;
       }
-
       .custom-scrollbar::-webkit-scrollbar-thumb {
         background: #334155;
         border-radius: 10px;
       }
-
       .custom-scrollbar::-webkit-scrollbar-thumb:hover {
         background: #475569;
       }
@@ -100,14 +96,13 @@
       }
     </style>
 
-    <!-- Vite uses its own module system, no importmap needed -->
     <link rel="stylesheet" href="/index.css" />
   </head>
 
   <body>
     <div id="root"></div>
 
-    <!-- IMPORTANT: Vite entry script -->
-    <script type="module" src="/src/main.tsx"></script>
+    <!-- Correct entry file for your project -->
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
